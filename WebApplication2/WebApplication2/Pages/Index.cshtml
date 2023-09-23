@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+     <form method="post">
+         <div>
+             <label for="textName">Name:</label>
+                 <input id="txtName" type="text"/>
+         </div>
+        <div>
+            <label for="textPassword">Password:</label>
+            <input id="txtPassword" placeholder="Enter Password" require type="password" />
+        </div>
+        <div>
+            <input type="submit" value="Ok"/>
+        </div>
+     </form>
+</div>

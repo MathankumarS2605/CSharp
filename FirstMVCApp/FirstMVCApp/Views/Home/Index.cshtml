@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="Home/DoLogin">
+        <div>
+            <div>
+                <label for="txtUser">User Name:</label>
+                <input type="text" name="txtUser"  required placeholder="Enter UserID" />
+            </div>
+            <div>
+                <label for="txtpwd">Password:</label>
+                <input type="password" name="txtPwd"  required placeholder="Enter Password" />
+            </div>
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+        </div>
+    </form>
+</div>
+<div>
+    <a href ="Home/SayHello?name=Mathan">SayHello</a>
+</div>
+<div>
+    <a href ="Home/Add?x=100&y=30">SayHello</a>
+</div>
+<div>
+    <a href="Home/Multiply?x=100&y=30">SayHello</a>
+</div>
+<div>
+    <a href="Home/Divide?x=100&y=30">SayHello</a>
+</div>
+<div>
+    <a href="Home/AddNewBook">NewBook</a>
+</div>
+<div>
+    <a href="Home/SaveBook">SaveBook</a>
+</div>
+<div>
+    <a href="Home/ListAllBook">ListBook</a>
+</div>
+<div>
+    <a href="Author" >Author Landing Page</a>
+</div>
+<div>
+    <a href="Employee">Employee Landing page</a>
+</div>
+
